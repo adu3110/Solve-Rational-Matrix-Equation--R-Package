@@ -1,6 +1,7 @@
 # Solve-Rational-Matrix-Equation--R-Package
 
 library(devtools)
+
 install_github("adu3110/Solve-Rational-Matrix-Equation--R-Package")
 
 library(SolveRationalMatrixEquation)
