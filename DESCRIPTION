@@ -1,0 +1,15 @@
+Package: SolveRationalMatrixEquation
+Type: Package
+Title: Solve Rational Matrix Equation
+Version: 0.1.0
+Author: Aditi Tiwari
+Maintainer: Aditi Tiwari <aditi.jec31@gmail.com>
+Description: Given a symmetrix positive definite matrix Q and a non-singular matrix L, Find symmetric positive definite solution X such that X = Q + L (X inv) L^T.
+        Reference: Benner, P., FaBbender, H. On the Solution of the Rational Matrix Equation.
+License: GPL-2
+Encoding: UTF-8
+RoxygenNote: 6.1.0
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2018-10-22 15:06:37 UTC; apple
