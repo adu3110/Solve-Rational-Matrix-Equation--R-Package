@@ -1,5 +1,5 @@
 # Solve-Rational-Matrix-Equation--R-Package
-
+```
 library(devtools)
 
 install_github("adu3110/Solve-Rational-Matrix-Equation--R-Package")
@@ -24,3 +24,4 @@ LQdecompose(L)
 X <- sol.rationalmatrix.euqation(Q, L)
 #Checking the results
 X - (Q + L %*% solve(X) %*% t(L))
+```
