@@ -1,5 +1,10 @@
 # Solve-Rational-Matrix-Equation--R-Package
 
+library(devtools)
+install_github("adu3110/Solve-Rational-Matrix-Equation--R-Package")
+
+library(SolveRationalMatrixEquation)
+
 Given a symmetrix positive definite matrix Q and a non-singular matrix L, Find symmetric positive definite solution X such that X = Q + L (X inv) L^T.
 
 ##Solve Rational Matrix
